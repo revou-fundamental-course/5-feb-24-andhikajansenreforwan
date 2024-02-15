@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>RevoU Mini Course</title>
+</head>
+<body>
+
+    <h1>TEMPERATURE CONVERTER</h1>
+
+  <div class="converter-container">
+    <label for="celsius">Celsius (°C):</label>
+    <input type="text" id="celsius">
+    
+    <button id="convert" onclick="convertTemperature()">Convert</button>
+    <button id="reset" onclick="resetFields()">Reset</button>
+    <button id="reverse" onclick="reverseFields()">Reverse</button>
+
+    <label for="fahrenheit">Fahrenheit (°F):</label>
+    <input type="text" id="fahrenheit">
+
+    <label for="calculationDetails">Calculation Method:</label>
+    <textarea id="calculationDetails" readonly></textarea>
+  </div>
+
+  <div class="guide-celsius">
+  <b>Cara Konversi dari Celsius (°C) Ke Fahrenheit (°F)</b>
+  <p>S(°F) = (S(°C) × 9/5) + 32</p>
+  </div>
+
+  <div class="guide-fahrenheit">
+  <b>Cara Konversi dari Fahrenheit (°F) Ke Celsius (°C)</b>
+  <p>S(°C)= (S(°F) - 32) × 5/9</p>
+  </div>
+
+
+
+  <script src="js/script.js"></script>
+</body>
+</html>

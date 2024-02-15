@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: xx-large;
+    background-color: #3e8e41;
+    color: yellow;
+    width: auto;
+  }
+  
+  label, input, textarea {
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    margin: 10px;
+    display: block;
+  }
+
+  button#convert {
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: red;
+    width: 100px;
+    height: 50px;
+    font-size: larger;
+    color: #aeebdc;
+  }
+
+  button#reset {
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: yellow;
+    width: 100px;
+    height: 50px;
+    font-size: larger;
+    color: blue;
+  }
+
+  button#reverse {
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: green;
+    width: 100px;
+    height: 50px;
+    font-size: larger;
+    color: #aeebdc;
+  }
+
+  button:hover {
+    background-color: #3e8e41
+}
+
+  button:active {
+  background-color: #3e8e41;
+  transform: translateY(4px);
+}
+  
+  textarea {
+    width: 400px;
+    height: 100px;
+    font-size: 20px;
+  }  
+
+  div.guide-celsius,
+  div.guide-fahrenheit {
+    margin: 10px;
+  }
